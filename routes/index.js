@@ -7,7 +7,7 @@ router.use('/api', apiRoutes);
 
 // Response for 404
 router.use((req, res) => {
-  res.send("Wrong Route!")
+  res.send("This is the wrong route!")
 });
 
 module.exports = router;
